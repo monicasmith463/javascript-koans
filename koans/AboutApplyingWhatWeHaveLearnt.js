@@ -3,7 +3,7 @@ var _; // globals
 describe("About Applying What We Have Learnt", function() {
   var products;
 
-  beforeEach(function () { 
+  beforeEach(function () {
     products = [
        { name: "Sonoma", ingredients: ["artichoke", "sundried tomatoes", "mushrooms"], containsNuts: false },
        { name: "Pizza Primavera", ingredients: ["roma", "sundried tomatoes", "goats cheese", "rosemary"], containsNuts: false },
@@ -51,7 +51,7 @@ describe("About Applying What We Have Learnt", function() {
         sum += i;
       }
     }
-    
+
     expect(sum).toBe(FILL_ME_IN);
   });
 
@@ -86,20 +86,20 @@ describe("About Applying What We Have Learnt", function() {
   /* UNCOMMENT FOR EXTRA CREDIT */
   /*
   it("should find the largest prime factor of a composite number", function () {
-  
+
   });
 
   it("should find the largest palindrome made from the product of two 3 digit numbers", function () {
-    
+
   });
 
   it("should find the smallest number divisible by each of the numbers 1 to 20", function () {
-      
-    
+
+
   });
 
   it("should find the difference between the sum of the squares and the square of the sums", function () {
-    
+
   });
 
   it("should find the 10001st prime", function () {
